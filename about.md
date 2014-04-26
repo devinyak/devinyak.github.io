@@ -7,7 +7,7 @@ group: menu
 # About Me #
 - - -
 
-![](http://dl.dropbox.com/u/3356641/blogstuff/blogpic.jpg)
+[](http://dl.dropbox.com/u/3356641/blogstuff/blogpic.jpg)
 
 I am a graduate student in the UC Davis [Graduate Group in Ecology](http://ecology.ucdavis.edu), where I study methods of ecological forecasting. At Davis I am part of the [Hastings Lab](http://two.ucdavis.edu/~me/), the [IGERT in Responding to Rapid Environmental Change](reach.ucdavis.edu), and the [Forest Biology Research Center](http://forestbiology.ucdavis.edu/).
 
@@ -31,9 +31,3 @@ This blog is mostly an [*open lab notebook*](http://www.carlboettiger.info/archi
 
 The blog is hosted on [github](http://www.github.com) and produced using a [modified version of jekyll](http://github.com/dsanson/jekyll/tree/pandoc-ruby).  If you want to see how it's built, here is the  [raw](http://github.com/noamross/jekyll-site) and [produced](http://github.com/noamross/noamross.github.com) source code.
 
-### Licenses ###
-
-<a title="Creative Commons License 3.0" href="http://creativecommons.org/licenses/by/3.0/"><img class="graycale" src="http://i.creativecommons.org/l/by/3.0/88x31.png" width=88 height=31 /> </a>
-<a title="Open Notebook Science, Selected Content, Delayed" alt="Open Notebook Science, Selected Content, Delayed" href="http://onsclaims.wikispaces.com/"><img class="grayscale" src="http://onsclaims.wikispaces.com/file/view/ons-sci2-icon.png" width=88 height=31>
-
-<!-- -->
