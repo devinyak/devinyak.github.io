@@ -17,19 +17,12 @@
   <meta property="og:site_name" content="{{ site.author.name }}">
   <link rel="icon" type="image/x-icon" href="{{ ASSET_PATH }}/atom.ico">
   <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
-  <link href="http://feeds.feedburner.com/noamross" rel="alternate" type="application/rss+xml" title="{{site.title}}" />
-  <script type="text/javascript">
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?112"></script>
 
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-30394461-1']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
- </script>
+<script type="text/javascript">
+  VK.init({apiId: 4329051, onlyWidgets: true});
+</script>
+  {% include JB/analytics %}
  <script type="text/javascript"> 
     function typeset() {
       MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
@@ -47,13 +40,7 @@
   <script type="text/x-mathjax-config">  MathJax.Hub.Config({ "HTML-CSS": { availableFonts: ["TeX"], webfont: [null] }} ); </script>
   <script type="text/x-mathjax-config">  MathJax.Hub.Config({ TeX: { extensions: ["autobold.js"] }} ); </script>
   <script type="text/javascript">var switchTo5x=true;</script>
-  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-  <script type="text/javascript">stLight.options({publisher: "4376beef-ffcc-441e-a877-904acf7f379b", theme:'8', onhover:false, doNotHash:true, doNotCopy:true, hashAddressBar:false}); </script>
-  <script type="text/javascript">
-      function chgifr(url, iframe)  {
-          document.getElementById(iframe).src = url;
-      }
-  </script>
+
   <script type="text/javascript">
       function showhide(id) {
            var e = document.getElementById(id);
@@ -79,23 +66,15 @@
          </div>
           <div class="pages">
             
-            <!-- Lockerz Share BEGIN -->
-            <a class="a2a_dd" href="http://www.addtoany.com/share_save" tile"Share this Page"><span class="shareicon"><span class="hide">Share</span></span></a>
-            <script type="text/javascript">
-            var a2a_config = a2a_config || {};
-            a2a_config.onclick = 0;
-            a2a_config.show_title = 1;
-            a2a_config.color_main = "FFFFFF";
-            a2a_config.color_border = "FFFFFF";
-            a2a_config.color_link_text = "45462f";
-            a2a_config.color_link_text_hover = "575757";
-            a2a_config.prioritize = ["twitter", "facebook", "tumblr", "email", "delicious", "linkedin", "stumbleupon", "google_plus"];
-            </script>
-            <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
-            <!-- Lockerz Share END -->
+
+
+<!-- Put this div tag to the place, where the Like block will be -->
+<div id="vk_like"></div>
+<script type="text/javascript">
+VK.Widgets.Like("vk_like", {type: "button"});
+</script>
             
-            <a href="http://feeds.feedburner.com/noamross" title="Subscribe via Feedburner RSS"> <span class="rssicon"> <span class="hide">RSS</span></span></a>
-            
+        
             {% assign pages_list = site.pages %} 
             {% assign group = 'menu' %} 
             {% include JB/pages_list2 %}

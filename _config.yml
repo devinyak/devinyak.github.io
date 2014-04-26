@@ -1,25 +1,25 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /blog/:year/:i_month/:i_day/:title.html
+permalink: /blog/:categories/:title/
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store", "updatesite.sh", ".rsyncignore"]
 include: [".htaccess"]
-auto: false
-pygments: false
+auto: true
+pygments: true
 redirects: yes
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title: Noam Ross
-tagline: Real-time research in ecology, economics, and sustainability
+title: Олег Девіняк
+tagline: Статистична допомога - 99999
 author:
-  name : Noam Ross
-  email : noam.ross@gmail.com
-  github : noamross
-  twitter : noamross
-  feedburner : feedname
-  
+  name : Олег Девіняк
+  email : o.devinyak@gmail.com
+  github : devinyak
+
+safe: true
 # For the pandoc-ruby branch of jekyll, (https://github.com/dsanson/jekyll) use pandoc as my markdown parser:
+paginate: 5
 
 markdown: rdiscount
 pandoc:
@@ -33,7 +33,7 @@ pandoc:
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://www.noamross.net
+production_url : http://stat.org.ua
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -62,7 +62,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://www.noamross.net
+  #BASE_PATH : http://stat.org.ua
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -88,29 +88,18 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : noamrossgh
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      short_name : devinyak
+
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : false 
+    provider : google 
     google : 
-        tracking_id : 'UA-30394461-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+        tracking_id : 'UA-21543661-5'
+
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.

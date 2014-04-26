@@ -1,28 +1,28 @@
 ---
 layout: default
-title: Connect
+title: Контакти
 group: menu
 ---
 
-# Contact Me #
+# Контакти #
 - - -
 
-Feel free to connect with me through any of these means:
+ - **Електронна пошта:** o.devinyak@gmail.com
 
- - **[Email](mailto:noam.ross@gmail.com)**
+ - **[Профіль на Github](http://github.com/devinyak/)** 
 
- - **[Twitter](http://twitter.com/#!/noamross)** (@noamross) for the pithy
+ - **[Профіль на ResearchGate](http://www.researchgate.net/profile/Oleg_Devinyak)** 
 
- - **[Mendeley](http://www.mendeley.com/profiles/noam-ross/)** for exchanging literature.  You can subscribe to my sometimes-updated reading lists here.
+ - **[Профіль на CrossValidated](http://stats.stackexchange.com/users/8165/)** 
 
- - **[Google+](http://www.google.com/profiles/Noam.Ross)** because someone uses it
+ - **Адреса**
 
- - **[Github](http://github.com/noamross/)** for sharing code.
+    >Девіняк Олег Теодозійович
 
- - **Snail Mail** for old times' sake:
+    >Кафедра фармацевтичних дисциплін
 
-    >Noam Ross  
-    >Department of Environmental Science and Policy  
-    >University of California at Davis  
-    >One Shields Avenue  
-    >Davis‎ CA‎ 95616  
+    >ДВНЗ "Ужгородський національний університет"
+
+    >пл. Народна, 1
+
+    >88000, м. Ужгород, Україна 
