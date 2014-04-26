@@ -21,10 +21,6 @@ safe: true
 # For the pandoc-ruby branch of jekyll, (https://github.com/dsanson/jekyll) use pandoc as my markdown parser:
 paginate: 5
 
-markdown: rdiscount
-pandoc:
-  extensions: [smart, mathjax, highlight-style="kate", indented-code-classes="r", email-obfuscation=none]
-
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
