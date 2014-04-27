@@ -5,8 +5,6 @@ deny from all
 ErrorDocument 404 /404.html
 
 RewriteEngine on
-Redirect 301 /stats.html http://egsa.nfshost.com/resources/stats/
-RedirectMatch 301 /statsclasses/([^\.]*)\.html http://egsa.nfshost.com/resources/stats/$1/
 
 # BEGIN REQUIRED FOR WEBFONTS
 
