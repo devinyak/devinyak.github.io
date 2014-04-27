@@ -7,13 +7,19 @@ group: menu
 # Контакти #
 - - -
 
- - **Електронна пошта:** o.devinyak@gmail.com
+ - **Електронна пошта:** stat.org.ua@gmail.com
 
- - **[Профіль на Github](http://github.com/devinyak/)** 
+ - **[Профіль на Google Scholar](http://scholar.google.com.ua/citations?user=7iwcSpkAAAAJ)** 
 
  - **[Профіль на ResearchGate](http://www.researchgate.net/profile/Oleg_Devinyak)** 
 
- - **[Профіль на CrossValidated](http://stats.stackexchange.com/users/8165/)** 
+ - **[Профіль на Scopus](http://www.scopus.com/authid/detail.url?authorId=43460946400)**  
+
+ - **[Профіль на GitHub](http://github.com/devinyak/)** 
+
+ - **[Профіль на CrossValidated](http://stats.stackexchange.com/users/8165/)**
+
+ - **[Профіль на Habrahabr](http://habrahabr.ru/users/odevinyak/)**
 
  - **Адреса**
 

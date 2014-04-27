@@ -6,7 +6,7 @@
 <div class="contenttext"><p>{{page.content | markdownify}}</p></div>
 <ul class="tags">
   
-    <li><strong>Tags: </strong></li>
+    <li><strong>Ключові слова: </strong></li>
     {% for tag in page.tags %}
     <li><a href="{{BASE_URL}}/tags.html#{{tag}}-ref">{{ tag }}</a></li>
     {% endfor %}  
@@ -14,6 +14,6 @@
 {% include JB/comments %}
 
 <div class="noprint" id="previous-posts"><hr />
-<p>{% if page.previous %} <strong>Previous Post</strong>: <a href="{{ BASE_PATH }}{{ page.previous.url }}">{{ page.previous.title }}</a> {% endif %}</p>
-<p>{% if page.next %} <strong>Next Post</strong>: <a href="{{ BASE_PATH }}{{ page.next.url }}">{{ page.next.title }}</a> {% endif %}</p></div>
+<p>{% if page.previous %} <strong>Попередня стаття</strong>: <a href="{{ BASE_PATH }}{{ page.previous.url }}">{{ page.previous.title }}</a> {% endif %}</p>
+<p>{% if page.next %} <strong>Наступна стаття</strong>: <a href="{{ BASE_PATH }}{{ page.next.url }}">{{ page.next.title }}</a> {% endif %}</p></div>
 

@@ -492,10 +492,10 @@ a:hover {
 }
 
 .blog-info {
-  height: 50px;
+  height: 100px;
   line-height:50px;
   float: left;
-  width: 50%;
+  width: 35%;
 }
 
 .blog-info h1 {
@@ -514,14 +514,14 @@ a:hover {
   height: 50px;
   line-height:50px;
   float: right;
-  width: 50%;
+  width: 65%;
   text-align: right;
 }
   .pages a {
     float: right;  
     display:block;
     border-bottom:none;
-    padding: 0 17px;
+    padding: 0 7px;
   }
 
 .menu-bottom {
