@@ -858,8 +858,7 @@ div#vk_like {
   height: 50px;
   line-height: 50px;
   background: white;
-  position: fixed;
-  top: 0; 
-  left: 0;
-  right: 0;
+  top: 100px;
+  left: 0%;
+  float: right;
 }
