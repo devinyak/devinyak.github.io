@@ -1,19 +1,19 @@
 
 http://stat.org.ua/archive.html
 http://stat.org.ua/pages.html
-http://stat.org.ua/connect.html
+http://stat.org.ua/3-publications.html
 http://stat.org.ua/404.html
 http://stat.org.ua/tags.html
 http://stat.org.ua/index.html
-http://stat.org.ua/about.html
-http://stat.org.ua/publications.html
+http://stat.org.ua/2-about.html
 http://stat.org.ua/donewrong/index.html
 http://stat.org.ua/blog/index.html
 http://stat.org.ua/statclasses/index.html
 http://stat.org.ua/sitemap.txt
-http://stat.org.ua/categories.html
+http://stat.org.ua/1-connect.html
+http://stat.org.ua/4-categories.html
 
+http://stat.org.ua/blog/blog/chisquared-simple/
 http://stat.org.ua/blog/donewrong/intro/
 http://stat.org.ua/blog/donewrong/about-statisticsdonewrong/
 http://stat.org.ua/blog/blog/fifi/
-http://stat.org.ua/blog/blog/tralala/
