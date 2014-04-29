@@ -16,9 +16,8 @@
   <meta charset="utf-8">
   <meta property="og:url" content="">
   <meta property="og:site_name" content="Олег Девіняк">
-  <link rel="icon" type="image/x-icon" href="/assets/themes/noamblog/atom.ico">
   <link href="/assets/themes/noamblog/css/style.css" rel="stylesheet" type="text/css" media="all">
-  <link href="http://raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/themes/noamblog/css/syntax.css" rel="stylesheet" type="text/css" media="all">
   
 
 
@@ -36,24 +35,17 @@
 
 
 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+  <script src="http://cachedcommons.org/javascripts/jquery/jquery.disqus.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
  <script type="text/javascript"> 
-    function typeset() {
-      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-    }
     function disqus_config() {
       this.callbacks.onNewComment = [typeset];
       this.callbacks.onInit = [typeset];
     }
   </script>
-  <script src="http://cachedcommons.org/javascripts/text/prettify-min.js" type="text/javascript"></script>
-  <script src="http://cachedcommons.org/javascripts/text/showdown-min.js" type="text/javascript"></script>
-  <script src="http://cachedcommons.org/javascripts/jquery/jquery.disqus.js" type="text/javascript"></script>
-  <script type="text/javascript" src="/assets/themes/noamblog/app.js"></script>  
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
-  <script type="text/x-mathjax-config">  MathJax.Hub.Config({ "HTML-CSS": { availableFonts: ["TeX"], webfont: [null] }} ); </script>
-  <script type="text/x-mathjax-config">  MathJax.Hub.Config({ TeX: { extensions: ["autobold.js"] }} ); </script>
-  <script type="text/javascript">var switchTo5x=true;</script>
-
   <script type="text/javascript">
       function showhide(id) {
            var e = document.getElementById(id);
@@ -63,8 +55,7 @@
               e.style.display = 'block';
         }
   </script>
-  <link rel="stylesheet" href="/crimson/stylestylesheet.css" type="text/css" charset="utf-8" />
-  
+   
 </head>
 <body>
 <div class="wrapper">
@@ -160,7 +151,7 @@
 <div id="headblock"><h1 id="post.title"><a href="/blog/blog/chisquared-simple/">Критерій хі-квадрат *на пальцях*</a></h1>
 <!--<p>by <em>Девіняк Олег</em>, 28 April 2014</p>-->
 </div>
-<div class="contenttext"><p>Статистика – наука про випадковість, і вона нічого не знає про якісь зв&#39;язки, закономірності чи залежності. Зате вона знає все про випадковість. Роблячи статистичні тести, ми насправді перевіряємо статистичні гіпотези. Ту гіпотезу, яку перевіряє статистика, називають нульовою. Протилежна гіпотеза до нульової називається альтернативною. Нульова гіпотеза завжди каже, що будь-які відмінності – випадкові. Альтернативна тоді каже, що відмінності не випадкові, тобто між досліджуваними ознаками є причинно-наслідковий (або якийсь інший) зв&#39;язок. Критерій хі-квадрат часто використовується у науковій літературі і дозволяє дослідити відмінності у частотах різних ознак. Розглянемо його обчислення на прикладі.</p>
+<div class="contenttext"><p>Статистика – наука про випадковість, і вона нічого не знає про якісь зв'язки, закономірності чи залежності. Зате вона знає все про випадковість. Роблячи статистичні тести, ми насправді перевіряємо статистичні гіпотези. Ту гіпотезу, яку перевіряє статистика, називають нульовою. Протилежна гіпотеза до нульової називається альтернативною. Нульова гіпотеза завжди каже, що будь-які відмінності – випадкові. Альтернативна тоді каже, що відмінності не випадкові, тобто між досліджуваними ознаками є причинно-наслідковий (або якийсь інший) зв'язок. Критерій хі-квадрат часто використовується у науковій літературі і дозволяє дослідити відмінності у частотах різних ознак. Розглянемо його обчислення на прикладі.</p>
 <a href="/blog/blog/chisquared-simple/">Читати далі...</a></div>
 <ul class="tags">
   
@@ -287,10 +278,7 @@
     
 
       </div>
-      
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/themes/noamblog/footnote-links.js"></script>
-<script type="text/javascript">$('div.contenttext').footnoteLinks();</script>
+
 </body>
 </html>
 

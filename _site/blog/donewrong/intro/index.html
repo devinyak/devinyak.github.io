@@ -16,9 +16,8 @@
   <meta charset="utf-8">
   <meta property="og:url" content="">
   <meta property="og:site_name" content="Олег Девіняк">
-  <link rel="icon" type="image/x-icon" href="/assets/themes/noamblog/atom.ico">
   <link href="/assets/themes/noamblog/css/style.css" rel="stylesheet" type="text/css" media="all">
-  <link href="http://raw.githubusercontent.com/mojombo/tpw/master/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+  <link href="/assets/themes/noamblog/css/syntax.css" rel="stylesheet" type="text/css" media="all">
   
 
 
@@ -36,24 +35,17 @@
 
 
 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+  <script src="http://cachedcommons.org/javascripts/jquery/jquery.disqus.js" type="text/javascript"></script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
  <script type="text/javascript"> 
-    function typeset() {
-      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-    }
     function disqus_config() {
       this.callbacks.onNewComment = [typeset];
       this.callbacks.onInit = [typeset];
     }
   </script>
-  <script src="http://cachedcommons.org/javascripts/text/prettify-min.js" type="text/javascript"></script>
-  <script src="http://cachedcommons.org/javascripts/text/showdown-min.js" type="text/javascript"></script>
-  <script src="http://cachedcommons.org/javascripts/jquery/jquery.disqus.js" type="text/javascript"></script>
-  <script type="text/javascript" src="/assets/themes/noamblog/app.js"></script>  
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
-  <script type="text/x-mathjax-config">  MathJax.Hub.Config({ "HTML-CSS": { availableFonts: ["TeX"], webfont: [null] }} ); </script>
-  <script type="text/x-mathjax-config">  MathJax.Hub.Config({ TeX: { extensions: ["autobold.js"] }} ); </script>
-  <script type="text/javascript">var switchTo5x=true;</script>
-
   <script type="text/javascript">
       function showhide(id) {
            var e = document.getElementById(id);
@@ -63,8 +55,7 @@
               e.style.display = 'block';
         }
   </script>
-  <link rel="stylesheet" href="/crimson/stylestylesheet.css" type="text/css" charset="utf-8" />
-  
+   
 </head>
 <body>
 <div class="wrapper">
@@ -168,14 +159,21 @@
 Фахівці зі статистики забезпечили науковцям знаряддя небаченої потужності щоб знаходити закономірності і смисл у випадку найбільш складних даних, і науковці з радістю перейняли ці методи.
 Але, при цьому вони не перейняли навчання статистиці. Багато освітніх програм, які готують науковців, не містять статистичної підготовки взагалі.</p>
 
+
+
+
 <p>З 1980-х років, дослідники описали численні статистичні помилки та хибні уявлення, що містяться у популярній науковій літературі, і знайшли, що багато наукових публікацій – можливо, навіть, більше половини, - стали жертвою цих помилок.
 Недостатня статистична потужність робить наукові дослідження нездатними знайти те, що в них шукається; множинні порівняння і хибно інтерпретовані р-величини; гнучкий аналіз даних легко знаходить кореляції там, де їх насправді не існує.
 Проблема ця не від бажання ввести в оману, а швидше від жалюгідної статистичної підготовки – жалюгідної настільки, що деякі науковці роблять висновок, що більшість опублікованих результатів наукових досліджень є, ймовірно, помилковими [^1].</p>
+
+
+
 
 <p>Нижче описано ряд найбільш кричущих статистичних помилок, регулярно здійснюваних в ім'я науки.
 Матеріал подано так, що для його розуміння знання статистичних методів не потрібні, адже багато науковців не проходять навіть формальної статистичної підготовки.
 І майте на увазі: з того часу, як Ви зрозумієте ці помилки, Ви будете їх помічати повсюду. Не лякайтесь.
 Це не привід, щоб відмовитись від усієї сучасної науки і повернутись до кровопускань та п'явок – навпаки, це виклик до удосконалення науки, на яку ми покладаємо свої надії.</p>
+
 
 <p>[^1] Пробна ссилка</p>
 </p></div>
@@ -218,10 +216,7 @@
     
 
       </div>
-      
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script type="text/javascript" src="/assets/themes/noamblog/footnote-links.js"></script>
-<script type="text/javascript">$('div.contenttext').footnoteLinks();</script>
+
 </body>
 </html>
 
