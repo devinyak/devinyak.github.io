@@ -4,9 +4,9 @@ permalink: /blog/:categories/:title/
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store", "updatesite.sh", ".rsyncignore"]
 include: [".htaccess"]
-auto: true
+auto: false
 pygments: true
-redirects: yes
+redirects: false
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
@@ -17,7 +17,7 @@ author:
   email : o.devinyak@gmail.com
   github : devinyak
 
-markdown: rdiscount
+markdown: maruku
 safe: true
 # For the pandoc-ruby branch of jekyll, (https://github.com/dsanson/jekyll) use pandoc as my markdown parser:
 paginate: 5
