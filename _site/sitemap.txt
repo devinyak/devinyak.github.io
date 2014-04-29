@@ -6,7 +6,7 @@ http://stat.org.ua/404.html
 http://stat.org.ua/index.html
 http://stat.org.ua/about.html
 http://stat.org.ua/donewrong/index.html
-http://stat.org.ua/categories.html
+http://stat.org.ua/keywords.html
 http://stat.org.ua/statclasses/index.html
 http://stat.org.ua/sitemap.txt
 http://stat.org.ua/connect.html
