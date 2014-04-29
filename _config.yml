@@ -17,7 +17,7 @@ author:
   email : o.devinyak@gmail.com
   github : devinyak
 
-markdown: maruku
+markdown: redcarpet
 safe: true
 # For the pandoc-ruby branch of jekyll, (https://github.com/dsanson/jekyll) use pandoc as my markdown parser:
 paginate: 5
