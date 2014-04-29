@@ -2,6 +2,7 @@
 layout: default
 title: Контакти
 group: menu
+permalink: connect.html
 ---
 
 # Контакти #

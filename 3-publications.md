@@ -2,6 +2,7 @@
 title: Публікації
 layout: page
 group: menu
+permalink: publications.html
 ---
 
 ## Наукові публікації

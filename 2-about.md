@@ -2,6 +2,7 @@
 layout: default
 title: Про автора
 group: menu
+permalink: about.html
 ---
 
 # Трохи про себе #

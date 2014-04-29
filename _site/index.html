@@ -5,7 +5,7 @@
 -->
 <html lang="en">
 <head>
-  <title>stat.org.ua | Головна</title>
+  <title>stat.org.ua | Статті</title>
   <meta name="description" content=" " />
   <meta name="author" content="Олег Девіняк">
   <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
@@ -14,10 +14,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <meta property="og:url" content="">
+  <meta property="og:url" content="http://stat.org.ua">
   <meta property="og:site_name" content="Олег Девіняк">
-  <link href="/assets/themes/noamblog/css/style.css" rel="stylesheet" type="text/css" media="all">
-  <link href="/assets/themes/noamblog/css/syntax.css" rel="stylesheet" type="text/css" media="all">
+  <link href="http://stat.org.ua/assets/themes/noamblog/css/style.css" rel="stylesheet" type="text/css" media="all">
+  <link href="http://stat.org.ua/assets/themes/noamblog/css/syntax.css" rel="stylesheet" type="text/css" media="all">
   
 
 
@@ -81,28 +81,23 @@ MathJax.Hub.Config({
             
 
 
-  
-    
-  
-    
+
   
     
     	
-    	<a href="/stories/index.html">Статті</a>
+    	<a href="http://stat.org.ua/connect.html">Контакти</a>
     	
     
   
     
     	
-    	<a href="/3-publications.html">Публікації</a>
+    	<a href="http://stat.org.ua/about.html">Про автора</a>
     	
     
   
     
-  
-    
     	
-    	<a href="/tags.html">Категорії</a>
+    	<a href="http://stat.org.ua/publications.html">Публікації</a>
     	
     
   
@@ -110,32 +105,36 @@ MathJax.Hub.Config({
   
     
     	
-    	<a href="/2-about.html">Про автора</a>
-    	
-    
-  
-    
-    	
-    	<a href="/donewrong/index.html">Статистика наперекосяк</a>
-    	
-    
-  
-    
-    	
-    	<a href="/statclasses/index.html">Статистика з R</a>
+    	<a href="http://stat.org.ua/categories.html">Категорії</a>
     	
     
   
     
   
     
+  
+    
     	
-    	<a href="/1-connect.html">Контакти</a>
+    	<a href="http://stat.org.ua/donewrong/index.html">Статистика наперекосяк</a>
+    	
+    
+  
+    
+    	
+    	<a href="http://stat.org.ua/statclasses/index.html">Статистика з R</a>
     	
     
   
     
   
+    
+  
+    
+  
+    
+  
+
+<a href="http://stat.org.ua">Статті</a>
 
 
 
@@ -147,6 +146,186 @@ MathJax.Hub.Config({
 
         <div class="content">
           
+ 
+<div id="headblock"><h1 id="post.title"><a href="/blog/stories/chisquared-simple+%28%D1%96%D0%BD%D1%88%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Критерій хі-квадрат <em>на пальцях</em></a></h1>
+<!--<p>by <em>Девіняк Олег</em>, 28 April 2014</p>-->
+</div>
+<div class="contenttext"><p>Статистика – наука про випадковість, і вона нічого не знає про якісь зв&#39;язки, закономірності чи залежності. Зате вона знає все про випадковість. Роблячи статистичні тести, ми насправді перевіряємо статистичні гіпотези. Ту гіпотезу, яку перевіряє статистика, називають нульовою. Протилежна гіпотеза до нульової називається альтернативною. Нульова гіпотеза завжди каже, що будь-які відмінності – випадкові. Альтернативна тоді каже, що відмінності не випадкові, тобто між досліджуваними ознаками є причинно-наслідковий (або якийсь інший) зв&#39;язок. Критерій хі-квадрат часто використовується у науковій літературі і дозволяє дослідити відмінності у частотах різних ознак. Розглянемо його обчислення на прикладі.</p>
+<a href="/blog/stories/chisquared-simple+%28%D1%96%D0%BD%D1%88%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Читати далі...</a></div>
+<ul class="tags">
+  
+    <li><strong>Ключові слова: </strong></li>
+	  
+    <li><a href="/tags.html#хі-квадрат-ref">хі-квадрат</a></li>
+
+    
+    <li><a href="/tags.html#R-ref">R</a></li>
+
+    
+    <li><a href="/tags.html#на-пальцях-ref">на-пальцях</a></li>
+
+    
+    <li><a href="/tags.html#основи-статистики-ref">основи-статистики</a></li>
+
+    
+    <li><a href="/tags.html#р-величина-ref">р-величина</a></li>
+
+    
+
+</ul>
+ 
+<!--<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'devinyak'; // required: replace example with your forum shortname
+    var disqus_identifier = '/blog/stories/chisquared-simple+%28%D1%96%D0%BD%D1%88%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    var disqus_url = 'http://stat.org.ua/blog/stories/chisquared-simple+%28%D1%96%D0%BD%D1%88%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+-->
+
+ 
+<div id="headblock"><h1 id="post.title"><a href="/blog/stories/chisquared-simple+%28%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Критерій хі-квадрат <em>на пальцях</em></a></h1>
+<!--<p>by <em>Девіняк Олег</em>, 28 April 2014</p>-->
+</div>
+<div class="contenttext"><p>Статистика – наука про випадковість, і вона нічого не знає про якісь зв&#39;язки, закономірності чи залежності. Зате вона знає все про випадковість. Роблячи статистичні тести, ми насправді перевіряємо статистичні гіпотези. Ту гіпотезу, яку перевіряє статистика, називають нульовою. Протилежна гіпотеза до нульової називається альтернативною. Нульова гіпотеза завжди каже, що будь-які відмінності – випадкові. Альтернативна тоді каже, що відмінності не випадкові, тобто між досліджуваними ознаками є причинно-наслідковий (або якийсь інший) зв&#39;язок. Критерій хі-квадрат часто використовується у науковій літературі і дозволяє дослідити відмінності у частотах різних ознак. Розглянемо його обчислення на прикладі.</p>
+<a href="/blog/stories/chisquared-simple+%28%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Читати далі...</a></div>
+<ul class="tags">
+  
+    <li><strong>Ключові слова: </strong></li>
+	  
+    <li><a href="/tags.html#хі-квадрат-ref">хі-квадрат</a></li>
+
+    
+    <li><a href="/tags.html#R-ref">R</a></li>
+
+    
+    <li><a href="/tags.html#на-пальцях-ref">на-пальцях</a></li>
+
+    
+    <li><a href="/tags.html#основи-статистики-ref">основи-статистики</a></li>
+
+    
+    <li><a href="/tags.html#р-величина-ref">р-величина</a></li>
+
+    
+
+</ul>
+ 
+<!--<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'devinyak'; // required: replace example with your forum shortname
+    var disqus_identifier = '/blog/stories/chisquared-simple+%28%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    var disqus_url = 'http://stat.org.ua/blog/stories/chisquared-simple+%28%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+-->
+
+ 
+<div id="headblock"><h1 id="post.title"><a href="/blog/stories/chisquared-simple+%284-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Критерій хі-квадрат <em>на пальцях</em></a></h1>
+<!--<p>by <em>Девіняк Олег</em>, 28 April 2014</p>-->
+</div>
+<div class="contenttext"><p>Статистика – наука про випадковість, і вона нічого не знає про якісь зв&#39;язки, закономірності чи залежності. Зате вона знає все про випадковість. Роблячи статистичні тести, ми насправді перевіряємо статистичні гіпотези. Ту гіпотезу, яку перевіряє статистика, називають нульовою. Протилежна гіпотеза до нульової називається альтернативною. Нульова гіпотеза завжди каже, що будь-які відмінності – випадкові. Альтернативна тоді каже, що відмінності не випадкові, тобто між досліджуваними ознаками є причинно-наслідковий (або якийсь інший) зв&#39;язок. Критерій хі-квадрат часто використовується у науковій літературі і дозволяє дослідити відмінності у частотах різних ознак. Розглянемо його обчислення на прикладі.</p>
+<a href="/blog/stories/chisquared-simple+%284-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Читати далі...</a></div>
+<ul class="tags">
+  
+    <li><strong>Ключові слова: </strong></li>
+	  
+    <li><a href="/tags.html#хі-квадрат-ref">хі-квадрат</a></li>
+
+    
+    <li><a href="/tags.html#R-ref">R</a></li>
+
+    
+    <li><a href="/tags.html#на-пальцях-ref">на-пальцях</a></li>
+
+    
+    <li><a href="/tags.html#основи-статистики-ref">основи-статистики</a></li>
+
+    
+    <li><a href="/tags.html#р-величина-ref">р-величина</a></li>
+
+    
+
+</ul>
+ 
+<!--<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'devinyak'; // required: replace example with your forum shortname
+    var disqus_identifier = '/blog/stories/chisquared-simple+%284-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    var disqus_url = 'http://stat.org.ua/blog/stories/chisquared-simple+%284-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+-->
+
+ 
+<div id="headblock"><h1 id="post.title"><a href="/blog/stories/chisquared-simple+%283-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Критерій хі-квадрат <em>на пальцях</em></a></h1>
+<!--<p>by <em>Девіняк Олег</em>, 28 April 2014</p>-->
+</div>
+<div class="contenttext"><p>Статистика – наука про випадковість, і вона нічого не знає про якісь зв&#39;язки, закономірності чи залежності. Зате вона знає все про випадковість. Роблячи статистичні тести, ми насправді перевіряємо статистичні гіпотези. Ту гіпотезу, яку перевіряє статистика, називають нульовою. Протилежна гіпотеза до нульової називається альтернативною. Нульова гіпотеза завжди каже, що будь-які відмінності – випадкові. Альтернативна тоді каже, що відмінності не випадкові, тобто між досліджуваними ознаками є причинно-наслідковий (або якийсь інший) зв&#39;язок. Критерій хі-квадрат часто використовується у науковій літературі і дозволяє дослідити відмінності у частотах різних ознак. Розглянемо його обчислення на прикладі.</p>
+<a href="/blog/stories/chisquared-simple+%283-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/">Читати далі...</a></div>
+<ul class="tags">
+  
+    <li><strong>Ключові слова: </strong></li>
+	  
+    <li><a href="/tags.html#хі-квадрат-ref">хі-квадрат</a></li>
+
+    
+    <li><a href="/tags.html#R-ref">R</a></li>
+
+    
+    <li><a href="/tags.html#на-пальцях-ref">на-пальцях</a></li>
+
+    
+    <li><a href="/tags.html#основи-статистики-ref">основи-статистики</a></li>
+
+    
+    <li><a href="/tags.html#р-величина-ref">р-величина</a></li>
+
+    
+
+</ul>
+ 
+<!--<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'devinyak'; // required: replace example with your forum shortname
+    var disqus_identifier = '/blog/stories/chisquared-simple+%283-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    var disqus_url = 'http://stat.org.ua/blog/stories/chisquared-simple+%283-%D0%B0+%D0%BA%D0%BE%D0%BF%D1%96%D1%8F%29/';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+-->
+
  
 <div id="headblock"><h1 id="post.title"><a href="/blog/stories/chisquared-simple/">Критерій хі-квадрат <em>на пальцях</em></a></h1>
 <!--<p>by <em>Девіняк Олег</em>, 28 April 2014</p>-->
@@ -192,91 +371,31 @@ MathJax.Hub.Config({
 
 -->
 
- 
-<!--<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'devinyak'; // required: replace example with your forum shortname
-    var disqus_identifier = '/blog/donewrong/intro/';
-    var disqus_url = 'http://stat.org.ua/blog/donewrong/intro/';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
--->
-
- 
-<!--<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'devinyak'; // required: replace example with your forum shortname
-    var disqus_identifier = '/blog/donewrong/about-statisticsdonewrong/';
-    var disqus_url = 'http://stat.org.ua/blog/donewrong/about-statisticsdonewrong/';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
--->
-
- 
-<div id="headblock"><h1 id="post.title"><a href="/blog/stories/fifi/">фіфі</a></h1>
-<!--<p>by <em>Олег Девіняк</em>, 28 January 2014</p>-->
-</div>
-<div class="contenttext"><div class="highlight"><pre><code class="r language-r" data-lang="r">x<span class="o">=</span>seq<span class="p">(</span><span class="m">0.03</span><span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span> <span class="c1">#послідовність чисел від 0.03 до 5 із кроком 0.01</span>
-plot<span class="p">(</span>x<span class="p">,</span>dchisq<span class="p">(</span>x<span class="p">,</span> df<span class="o">=</span><span class="m">1</span><span class="p">),</span>type<span class="o">=</span><span class="s">&quot;l&quot;</span><span class="p">,</span>col<span class="o">=</span><span class="s">&#39;blue&#39;</span><span class="p">)</span> <span class="c1">#графік, по осі абсцис - густина ймовірності</span>
-p.value<span class="o">=</span><span class="m">3.018</span>
-cord.x<span class="o">=</span>c<span class="p">(</span>p.value<span class="p">,</span>seq<span class="p">(</span>p.value<span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">0.01</span><span class="p">),</span>p.value<span class="p">)</span> 
-cord.y<span class="o">=</span>c<span class="p">(</span><span class="m">0</span><span class="p">,</span>dchisq<span class="p">(</span>seq<span class="p">(</span>p.value<span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">0.01</span><span class="p">),</span><span class="m">1</span><span class="p">),</span><span class="m">0</span><span class="p">)</span> 
-polygon<span class="p">(</span>cord.x<span class="p">,</span>cord.y<span class="p">,</span>col<span class="o">=</span><span class="s">&quot;red&quot;</span><span class="p">)</span> <span class="c1">#забарвлюєм область після р-величини</span>
-</code></pre></div><a href="/blog/stories/fifi/">Читати далі...</a></div>
-<ul class="tags">
-  
-    <li><strong>Ключові слова: </strong></li>
-	  
-    <li><a href="/tags.html#R-ref">R</a></li>
-
-    
-
-</ul>
- 
-<!--<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'devinyak'; // required: replace example with your forum shortname
-    var disqus_identifier = '/blog/stories/fifi/';
-    var disqus_url = 'http://stat.org.ua/blog/stories/fifi/';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
--->
-
 <!-- Pagination links -->
 <div class="pagination">
 <ul>
 
 
- <li> <a href="#"> Page: 1 of 1</a></li>
+ <li> <a href="#"> Page: 1 of 2</a></li>
+  
+  <li>  <a href="/page2">Next</a></li>
   
 </ul>
 </div>
 <!--<div class="noprint" id="previous-posts"><hr />
 <h1>Previous Posts</h1>
+
+<ul>
+<li><a href="/blog/donewrong/intro/">Вступ</a></li>
+</ul>
+
+<ul>
+<li><a href="/blog/donewrong/about-statisticsdonewrong/">Про статистику наперекосяк</a></li>
+</ul>
+
+<ul>
+<li><a href="/blog/stories/fifi/">фіфі</a></li>
+</ul>
  </div>-->
 
         </div>
