@@ -391,11 +391,8 @@ iframe {
 
 img {
 	display: block;
-	margin: 10 10 10 10 px auto;
   margin-left: auto !important;
   margin-right: auto !important; 
-	max-width: 100%;
-	padding: 7px 7px 7px 7px ;
 	}
 	
 .share-buttons iframe,  .share-buttons div{
