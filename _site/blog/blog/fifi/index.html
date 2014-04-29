@@ -147,7 +147,13 @@
 <p>by <em>Олег Девіняк</em>, 28 January 2014</p>
 <hr />
 </div>
-<div class="contenttext"><p><p>фіфіфі</p></p></div>
+<div class="contenttext"><p><div class="highlight"><pre><code class="r language-r" data-lang="r">x<span class="o">=</span>seq<span class="p">(</span><span class="m">0.03</span><span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">0.01</span><span class="p">)</span> <span class="c1">#послідовність чисел від 0.03 до 5 із кроком 0.01</span>
+plot<span class="p">(</span>x<span class="p">,</span>dchisq<span class="p">(</span>x<span class="p">,</span> df<span class="o">=</span><span class="m">1</span><span class="p">),</span>type<span class="o">=</span><span class="s">&quot;l&quot;</span><span class="p">,</span>col<span class="o">=</span><span class="s">&#39;blue&#39;</span><span class="p">)</span> <span class="c1">#графік, по осі абсцис - густина ймовірності</span>
+p.value<span class="o">=</span><span class="m">3.018</span>
+cord.x<span class="o">=</span>c<span class="p">(</span>p.value<span class="p">,</span>seq<span class="p">(</span>p.value<span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">0.01</span><span class="p">),</span>p.value<span class="p">)</span> 
+cord.y<span class="o">=</span>c<span class="p">(</span><span class="m">0</span><span class="p">,</span>dchisq<span class="p">(</span>seq<span class="p">(</span>p.value<span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">0.01</span><span class="p">),</span><span class="m">1</span><span class="p">),</span><span class="m">0</span><span class="p">)</span> 
+polygon<span class="p">(</span>cord.x<span class="p">,</span>cord.y<span class="p">,</span>col<span class="o">=</span><span class="s">&quot;red&quot;</span><span class="p">)</span> <span class="c1">#забарвлюєм область після р-величини</span>
+</code></pre></div></p></div>
 <ul class="tags">
   
     <li><strong>Ключові слова: </strong></li>
