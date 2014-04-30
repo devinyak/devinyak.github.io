@@ -12,7 +12,7 @@ group: menu
 
 {% for post in site.posts %}
  {% if post.categories contains 'donewrong' %}
-<div id="headblock"><h1 id="post.title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
+<div id="headblock"><h2 id="post.title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
 <!--<p><em>{{post.author}}</em>, {{ post.date | date_to_short_string }}</p>-->
 </div>
  {% endif %}
