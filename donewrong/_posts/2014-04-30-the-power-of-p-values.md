@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [основи-статистики, р-величина]
+tags: [основи статистики, р-величина]
 title: Могутність р-величин
 author: Алекс Рейнхарт, Олег Девіняк
 date: "2014-04-30" 
@@ -36,5 +36,5 @@ category: donewrong
 ___
 
 <div class="nohover">
-<a name="Goodman" id="anchor">\[2\]: Goodman S.N. Toward evidence-based medical statistics. 1: The P value fallacy / S.N. Goodman // Annals of Internal Medicine. - 1999. - Vol. 130. - P. 995–1004.</a>
+<a name="Goodman" id="anchor">[2] Goodman S.N. Toward evidence-based medical statistics. 1: The P value fallacy / S.N. Goodman // Annals of Internal Medicine. - 1999. - Vol. 130. - P. 995–1004.</a>
 </div>
