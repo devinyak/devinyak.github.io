@@ -875,8 +875,10 @@ float:right;
 
 a#anchor {
 position:relative;
-padding-top:100px;
+padding-top:50px;
 }
+
+.nohover a:hover { opacity: 1 }
 
 hr,input[type=hidden],.dsq-dc-logo,.dsq-options,.hide {
 display:none;

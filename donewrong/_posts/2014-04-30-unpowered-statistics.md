@@ -61,6 +61,9 @@ category: donewrong
 
 Довіряючи цим даним, все більше і більше міст та штатів почали дозволяти правий поворот на червоне. Проблема, звичайно, ховалась в тому, що дослідження були непотужними. Більше пішоходів збивались автомобілями, більше автомобілів мали зіткнення, але ніхто не не назбирав достатньо даних, щоб показати це. І лише через декілька років з'явились результати, які чітко вказали на збільшення кількості ДТП (в деяких випадках вдвічі) <a href="#hauer 2004">\[9\]</a>, <a href="#preusser 1982">\[10\]</a>. Хибна інтерпретація непотужних досліджень коштувала людям життя.
 
+___
+
+<div class="nohover">
 <a name="tsang 2009" id="anchor">\[3\] R. Tsang, L. Colley, L. D. Lynd. Inadequate statistical power to detect clinically significant differences in adverse event rates in randomized controlled trials. Journal of Clinical Epidemiology, 62:609–616, 2009.</a>
 
 <a name="moher 1994" id="anchor">\[4\] D. Moher, C.S. Dulberg, G.A. Wells. Statistical power, sample size, and their reporting in randomized controlled trials. JAMA, 272.2:122-124, 1994.</a>
@@ -76,3 +79,4 @@ category: donewrong
 <a name="hauer 2004" id="anchor">\[9\] E. Hauer. The harm done by tests of significance. Accident Analysis & Prevention, 36:495–500, 2004.</a>
 
 <a name="preusser 1982" id="anchor">\[10\] D. F. Preusser, W. A. Leaf, K. B. DeBartolo, R. D. Blomberg, M. M. Levy. The effect of right-turn-on-red on pedestrian and bicyclist accidents. Journal of Safety Research, 13:45–55, 1982. </a>
+</div>

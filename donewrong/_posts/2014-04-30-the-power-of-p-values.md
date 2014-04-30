@@ -33,4 +33,8 @@ category: donewrong
 Не існує математичного інструменту, який сказав би, чи наша гіпотеза вірна. Ми можемо тільки розглядати, чи узгоджується ця гіпотеза з даними, і якщо дані поодинокі або неоднозначні, то висновки наші непевні, і їм не слід довіряти сліпо.
 Однак це не повинно зупиняти науку.
 
+___
+
+<div class="nohover">
 <a name="Goodman" id="anchor">\[2\]: Goodman S.N. Toward evidence-based medical statistics. 1: The P value fallacy / S.N. Goodman // Annals of Internal Medicine. - 1999. - Vol. 130. - P. 995–1004.</a>
+</div>
