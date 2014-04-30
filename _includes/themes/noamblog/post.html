@@ -1,6 +1,6 @@
 <div id="headblock">
 <h1 id="page.title"><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></h1>
-<p><em>{{page.author}}</em>, {{ page.date }}</p>
+<p><em>{{page.author}}</em>, {{ page.date | date: "%Y.%m.%d"}}</p>
 <hr />
 </div>
 <div class="contenttext"><p>{{page.content | markdownify}}</p></div>
