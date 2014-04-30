@@ -857,3 +857,9 @@ div#vk_like {
   top: 10px;
   float: right;
 }
+
+a#anchor{
+position: relative;
+padding-top: 100px;
+}
+
