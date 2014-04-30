@@ -65,18 +65,11 @@ ___
 
 <div class="nohover">
 <a name="tsang 2009" id="anchor">\[3\] R. Tsang, L. Colley, L. D. Lynd. Inadequate statistical power to detect clinically significant differences in adverse event rates in randomized controlled trials. Journal of Clinical Epidemiology, 62:609–616, 2009.</a>
-
 <a name="moher 1994" id="anchor">\[4\] D. Moher, C.S. Dulberg, G.A. Wells. Statistical power, sample size, and their reporting in randomized controlled trials. JAMA, 272.2:122-124, 1994.</a>
-
 <a name="bedard 2007" id="anchor">\[5\] P.L. Bedard, M.K. Krzyzanowska, M. Pintilie, I.F. Tannock. Statistical Power of Negative Randomized Controlled Trials Presented at American Society for Clinical Oncology Annual Meetings. Journal of Clinical Oncology, 25:3482–3487, 2007.</a>
-
 <a name="brown 1987" id="anchor">\[6\] C. G. Brown, G. D. Kelen, J. J. Ashton, H. A. Werman. The beta error and sample size determination in clinical trials in emergency medicine. Annals of Emergency Medicine, 16:183–187, 1987.</a>
-
 <a name="chung 1998" id="anchor">\[7\] K. C. Chung, L. K. Kalliainen, R. A. Hayward. Type II (beta) errors in the hand literature: the importance of power. The Journal of Hand Surgery, 23:20–25, 1998.</a>
-
 <a name="button 2013" id="anchor">\[8\] K. S. Button, J. P. A. Ioannidis, C. Mokrysz, B. A. Nosek, J. Flint, E. S. J. Robinson, M. R. Munafò. Power failure: why small sample size undermines the reliability of neuroscience. Nature Reviews Neuroscience, 2013. </a>
-
 <a name="hauer 2004" id="anchor">\[9\] E. Hauer. The harm done by tests of significance. Accident Analysis & Prevention, 36:495–500, 2004.</a>
-
 <a name="preusser 1982" id="anchor">\[10\] D. F. Preusser, W. A. Leaf, K. B. DeBartolo, R. D. Blomberg, M. M. Levy. The effect of right-turn-on-red on pedestrian and bicyclist accidents. Journal of Safety Research, 13:45–55, 1982. </a>
 </div>
