@@ -23,10 +23,12 @@ category: donewrong
 
 Таку помилку можна знайти навіть у посібниках з початків статистики. Р-величини не є інтуїтивно зрозумілими, і помилка базової частоти набула характеру епідемії.
 
+
 ___
 
 <div class="nohover">
 <a name="kramer", id="anchor">[12] W. Krämer, G. Gigerenzer. How to Confuse with Statistics or: The Use and Misuse of Conditional Probabilities. Statistical Science, 20:223–230, 2005. </a>
+
 
 <a name="Bramwell", id="anchor">[13] R. Bramwell, H. West. Health professionals’ and service users’ interpretation of screening test results: experimental study. BMJ, 2006.</a>
 </div>
