@@ -15,14 +15,13 @@ category: donewrong
 
 Отримані дані були проаналізовані, і знайдена зміна активності деяких областей мозку. Порівняння томограм до завдання та після виявило відмінність із \\(р=0.001\\) у \\(81mm^3\\) кластері мозку.
 
-Хто буди учасниками дослідження? Ні, не студенти молодших курсів, яким платять по 10$ за витрачений час, як це традиційно робилось. Досліджуваним суб'єктом був атлантичний лосось, який "ще до сканування вже не подавав ознак життєдіяльності" <a href="#Bennett">\[15\]</a>.
+Хто були учасниками дослідження? Ні, не студенти молодших курсів, яким платять по 10$ за витрачений час, як це традиційно робилось. Досліджуваним суб'єктом був атлантичний лосось, який "ще до сканування вже не подавав ознак життєдіяльності" <a href="#Bennett">\[15\]</a>.
 
 Звичайно, більшість неврологічних досліджень не такі примітивні, як це; існуючі методи шукають кластери (групи) вокселів, які змінюються разом, а також використовуються прийоми для контролю частки хибних відкриттів навіть якщо виконуються тисячі статистичних тестів. Ці меотди широко поширені у сучасній літературі, і зовсім мало статей роблять такі прості помилки, як тут описано. Але, на жаль, майже кожна з публікацій підходить до проблеми по різному; огляд 241 фМРТ досліджень виявив, що в них використано 223 різних стратегій аналізу даних, які, як ми розглянемо пізніше, дають досліджнику достатньо гнучкості щоб досягнути статистично значимих результатів <a href="#Carp">\[16\]</a>.
 
 ___
 
 <div class="nohover">
-<a name="Bennett", id="anchor">[15] C. Bennett, A. Baird, M. Miller, G. Wolford. Neural Correlates of Interspecies Perspective Taking in the Post-Mortem Atlantic Salmon: An Argument For Proper Multiple Comparisons Correction. Journal of Serendipitous and Unexpected Results, 1:1–5, 2010. </a>
-
+<a name="Bennett", id="anchor">[15] C. Bennett, A. Baird, M. Miller, G. Wolford. Neural Correlates of Interspecies Perspective Taking in the Post-Mortem Atlantic Salmon: An Argument For Proper Multiple Comparisons Correction. Journal of Serendipitous and Unexpected Results, 1:1–5, 2010. </a><br>
 <a name="Carp", id="anchor">[16] J. Carp. The secret lives of experiments: methods reporting in the fMRI literature. Neuroimage, 63:289–300, 2012. </a>
 </div>

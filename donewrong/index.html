@@ -10,9 +10,9 @@ group: menu
 
 <p>Щодо авторського права: матеріал поширюється згідно ліцензії <a href="http://creativecommons.org/licenses/by/3.0/">"Creative Commons Attribution 3.0 Unported License" </a>. Кожен має право друкувати його, копіювати його, перекладати його, переписувати його, класти його на музику, оголошувати його публічно чи написати на заборі, чи що ще прийде в голову – за умови, що оригінал буде приписано Алексу Рейнхарту і забезпечене посилання на сайт <a href="http://statisticsdonewrong.com">www.statisticsdonewrong.com</a>. Відвідайте посилання у назві ліцензії, щоб дізнатись деталі.</p>
 
-{% for post in site.posts %}
+{% for post in site.posts | reverse %}
  {% if post.categories contains 'donewrong' %}
-<div id="headblock"><h4 id="post.title"><a href="{{ BASE_PATH }}{{ post.url | reverse }}">{{ post.title | reverse }}</a></h4>
+<div id="headblock"><h4 id="post.title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h4>
 
 </div>
  {% endif %}
