@@ -25,5 +25,5 @@ ___
 
 <div class="nohover">
 <a name="Smith", id="anchor">[14] D. G. Smith, J. Clemens, W. Crede, M. Harvey, E. J. Gracely. Impact of multiple comparisons in randomized clinical trials. The American Journal of Medicine, 83:545–550, 1987. </a>
-
+</div>
 
