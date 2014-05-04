@@ -4,42 +4,12 @@ title: Статистика з R
 group: menu
 ---
 
-{% for post in paginator.posts%}
+{% for post in site.posts reversed %}
  {% if post.categories contains 'statclasses' %}
 <div id="headblock"><h1 id="post.title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
-<!--<p>by <em>{{post.author}}</em>, {{ post.date | date_to_long_string }}</p>-->
 </div>
-<div class="contenttext">{{ post.excerpt }}<a href="{{ BASE_PATH }}{{ post.url }}">Читати далі...</a></div>
-<ul class="tags">
-  
-    <li><strong>Ключові слова: </strong></li>
-	  {% for tag in post.tags %}
-    <li><a href="{{BASE_URL}}/tags.html#{{tag}}-ref">{{ tag }}</a></li>
-    {% endfor %}
-</ul> 
+
+
 {% endif %}
 {% endfor %}
-<!-- Pagination links -->
-<div class="pagination">
-<ul>
 
-{% if paginator.previous_page %}
-{% if paginator.previous_page == 1 %}
-   <li> <a href="http://stat.org.ua">Previous</a></li>
-{% else %}
- <li> <a href="/page{{ paginator.previous_page }}">Previous</a></li>
-{% endif %}
-{% endif %}
- <li> <a href="#"> Page: {{ paginator.page }} of {{ paginator.total_pages }}</a></li>
-  {% if paginator.next_page %}
-  <li>  <a href="/page{{ paginator.next_page }}">Next</a></li>
-  {% endif %}
-</ul>
-</div>
-<!--<div class="noprint" id="previous-posts"><hr />
-<h1>Previous Posts</h1>
-{% for post in site.posts limit:5 offset:5 %}
-<ul>
-<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-</ul>
-{% endfor %} </div>-->
