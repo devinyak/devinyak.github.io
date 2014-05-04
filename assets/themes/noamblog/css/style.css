@@ -325,7 +325,7 @@ margin:1.3125em 0;
 
 .content ul
 .content ol,.content dl,.content pre,.content address,.content table {
-margin-bottom:1.6em;
+margin-bottom:0.3em;
 }
 
 .content p+p {
