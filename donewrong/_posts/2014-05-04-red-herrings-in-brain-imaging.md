@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [основи статистики, множинні порівняння]
-title: "&nbsp&nbspЧепуха на томограмах мозку"
+title: "&nbsp&nbsp&nbsp&nbspЧепуха на томограмах мозку"
 author: Алекс Рейнхарт (переклав Олег Девіняк)
 date: "2014-05-04" 
 category: donewrong
