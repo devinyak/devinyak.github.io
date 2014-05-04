@@ -5,7 +5,7 @@ group: menu
 ---
 
 {% for post in paginator.posts%}
- {% if post.categories contains 'classes' %}
+ {% if post.categories contains 'statclasses' %}
 <div id="headblock"><h1 id="post.title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
 <!--<p>by <em>{{post.author}}</em>, {{ post.date | date_to_long_string }}</p>-->
 </div>
@@ -18,22 +18,6 @@ group: menu
     {% endfor %}
 </ul> 
 {% endif %}
-<!--<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = '{{ site.JB.comments.disqus.short_name }}'; // required: replace example with your forum shortname
-    var disqus_identifier = '{{ post.url }}';
-    var disqus_url = '{{ site.production_url }}{{ post.url }}';
-    {% if page.wordpress_id %}var disqus_identifier = '{{page.wordpress_id}} {{site.production_url}}/?p={{page.wordpress_id}}';{% endif %}
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
--->
 {% endfor %}
 <!-- Pagination links -->
 <div class="pagination">
