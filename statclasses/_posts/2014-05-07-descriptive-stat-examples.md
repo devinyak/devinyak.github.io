@@ -195,4 +195,4 @@ boxplot(data$percent ~ data$type, las = 2, par(mar = c(12, 3, 1, 1)))
 ___
 
 <div class="nohover">
-<a name="Student">Student (1908) The probable error of the mean. Biometrika, 6, 20. </a> </div>
+<a name="Student" id="anchor">Student (1908) The probable error of the mean. Biometrika, 6, 20. </a> </div>
