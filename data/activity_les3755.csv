@@ -1,0 +1,61 @@
+line;percent;type
+CCRF-CEM;5.9;Leukemia
+HL-60(TB);40;Leukemia
+K-562;9.52;Leukemia
+MOLT-4;0.68;Leukemia
+RPMI-8226;40.21;Leukemia
+SR;9.8;Leukemia
+A549/ATCC;-68.55;Non-Small Cell Lung Cancer
+EKVX;4.66;Non-Small Cell Lung Cancer
+HOP-62;-19.98;Non-Small Cell Lung Cancer
+HOP-92;-46.39;Non-Small Cell Lung Cancer
+NCI-H226;-23.73;Non-Small Cell Lung Cancer
+NCI-H23;-65.6;Non-Small Cell Lung Cancer
+NCI-H322M;-23.41;Non-Small Cell Lung Cancer
+NCI-H460;-27.7;Non-Small Cell Lung Cancer
+NCI-H522;-76.99;Non-Small Cell Lung Cancer
+COLO 205;-62.59;Colon Cancer
+HCC-2998;-31.09;Colon Cancer
+HCT-116;-51.25;Colon Cancer
+HCT-15;17.55;Colon Cancer
+HT29;-46.19;Colon Cancer
+KM12;-79.11;Colon Cancer
+SW-620;-45.8;Colon Cancer
+SF-268;1.72;CNS Cancer
+SF-295;-11.71;CNS Cancer
+SF-539;39.48;CNS Cancer
+SNB-19;-3.95;CNS Cancer
+SNB-75;-14.67;CNS Cancer
+U251;-91.19;CNS Cancer
+LOX IMVI;-57.06;Melanoma
+MALME-3M;-65.22;Melanoma
+M14;-60.78;Melanoma
+MDA-MB-435;-12.98;Melanoma
+SK-MEL-2;-67.27;Melanoma
+SK-MEL-28;-76.42;Melanoma
+SK-MEL-5;12.83;Melanoma
+UACC-257;-49.77;Melanoma
+UACC-62;-64.35;Melanoma
+IGROV1;-28.86;Ovarian Cancer
+OVCAR-3;-82.11;Ovarian Cancer
+OVCAR-4;-37.15;Ovarian Cancer
+OVCAR-5;-36.41;Ovarian Cancer
+OVCAR-8;-50.29;Ovarian Cancer
+NCI/ADR-RES;47.17;Ovarian Cancer
+SK-OV-3;14.7;Ovarian Cancer
+786-0;-56.54;Renal Cancer
+A498;-42.09;Renal Cancer
+ACHN;-24.38;Renal Cancer
+CAKI-1;-0.03;Renal Cancer
+RXF393;-90.4;Renal Cancer
+SN12C;-38.55;Renal Cancer
+TK-10;-10.28;Renal Cancer
+UO-31;-8.54;Renal Cancer
+PC-3;-35.66;Prostate Cancer
+DU-145;-10.49;Prostate Cancer
+MCF7;3.71;Breast Cancer
+MDA-MB-231/ATCC;-50.76;Breast Cancer
+HS 578T;111.03;Breast Cancer
+BT-549;97.46;Breast Cancer
+T-47D;-38.31;Breast Cancer
+MDA-MB-468;-77.16;Breast Cancer
