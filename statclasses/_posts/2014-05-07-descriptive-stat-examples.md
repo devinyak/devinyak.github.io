@@ -66,7 +66,7 @@ tapply(sleep$extra, sleep$group, mean)
 boxplot(sleep$extra ~ sleep$group)  # у функцію передаємо формулу 'змінна extra залежить від змінної group'
 ```
 
-![plot of chunk unnamed-chunk-3](../figures/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](http://stat.org.ua/figures/descr-stat-1.png) 
 
 
 Ще раз бачимо перевагу одного препарату над іншим, крім того, відсутність викидів на графіку може означати відсутність незвичайних пацієнтів та спотвореної дії препаратів. 
@@ -119,7 +119,7 @@ boxplot(data$PPG ~ data$ORIGIN, ylim = c(min(data$PPG) - 5, max(data$PPG) +
     5))
 ```
 
-![plot of chunk unnamed-chunk-7](../figures/unnamed-chunk-7.png) 
+![plot of chunk unnamed-chunk-7](http://stat.org.ua/figures/descr-stat-2.png) 
 
 
 Передаємо формулу "`PPG` залежить від `ORIGIN`", задаємо прямо вертикальні границі графіку: нижня межа нехай виводиться на 5 нижче від мінімуму PPG, а верхня на 5 вище. Це потрібно щоб зарезервувати місце для наступної ідентифікації точок графіку.
@@ -200,7 +200,7 @@ tapply(data$percent, data$type, mean)
 boxplot(data$percent)
 ```
 
-![plot of chunk unnamed-chunk-13](../figures/unnamed-chunk-13.png) 
+![plot of chunk unnamed-chunk-13](http://stat.org.ua/figures/descr-stat-3.png) 
 
 
 Бачимо досить симетричний розподіл результатів із двома викидами у верхній частині графіка. Ці викиди означають повну стійкість деяких двох ліній у даному експерименті.
@@ -211,7 +211,7 @@ boxplot(data$percent)
 boxplot(data$percent ~ data$type)
 ```
 
-![plot of chunk unnamed-chunk-14](../figures/unnamed-chunk-14.png) 
+![plot of chunk unnamed-chunk-14](http://stat.org.ua/figures/descr-stat-4.png) 
 
 
 Бачимо невеличку проблемку: так як мітки осей графіка по замовчуванню виводяться у горизонтальному положенні, то усі назви класів не поміщаються на графік. Тому потрібно ввести додаткові параметри:
@@ -221,7 +221,7 @@ boxplot(data$percent ~ data$type)
 boxplot(data$percent ~ data$type, las = 2, par(mar = c(12, 3, 1, 1)))
 ```
 
-![plot of chunk unnamed-chunk-15](../figures/unnamed-chunk-15.png) 
+![plot of chunk unnamed-chunk-15](http://stat.org.ua/figures/descr-stat-5.png) 
 
 
 `las=2` потрібен щоб мітки по осі абсцис виводились вертикально, функція `par()` дозволяє додатково вводити параметрами графічного вікна, параметр `mar` є вектором відстаней від границь вікна до самого графіку (у порядку знизу, зліва, зверху, справа).
