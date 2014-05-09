@@ -848,6 +848,7 @@ table td {
 font-size:.95em;
 line-height:1.2em;
 padding:2px 1em;
+border: 1px solid;
 }
 
 table thead {
