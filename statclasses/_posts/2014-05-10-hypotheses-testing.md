@@ -154,4 +154,169 @@ order(sleep$extra)[11:20]  #ранги результатів випробува
 ####Непараметричні критерії однорідності (масштабу).
 1. Критерій Ансарі-Бредлі `ansari.test()`. Непараметричний критерій для перевірки рівності масштабів двох вибірок (при відсутності нормального розподілу коректніше говорити про масштаб, а не про дисперсію). Хоч критерій Ансарі-Бредлі не залежить від розподілу вибірок, він базується на припущенні про рівність медіан. Якщо ця умова не виконується, порівняння масштабів вибірок можна виконати графічно (за допомогою графіка "ящик з вусами").
 
+##Узагальнення
+Якщо розглядати використання статистичних критеріїв для порівняння груп (найбільш поширений випадок формулювання статистичних гіпотез), то для вибору статистичного критерія можна використати таку табличку:
+
+<table cellpadding="3" cellspacing="0" width="641">
+    <colgroup>
+        <col width="93"/>
+        <col width="54"/>
+        <col width="119"/>
+        <col width="123"/>
+        <col width="88"/>
+        <col width="126"/>
+    </colgroup>
+    <tbody>
+        <tr valign="TOP">
+            <td width="93">
+            </td>
+            <td width="54">
+            </td>
+            <td colspan="2" width="248">
+                <p lang="en-US" align="CENTER">
+                    <strong>Відносна ознака</strong>
+                    
+                </p>
+            </td>
+            <td colspan="2" width="220">
+                <p lang="en-US" align="CENTER">
+                    <strong>Дискретна ознака</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="93">
+            </td>
+            <td width="54">
+            </td>
+            <td width="119">
+                <p align="CENTER">
+                    Нормальний розподіл
+                </p>
+            </td>
+            <td width="123">
+                <p align="CENTER">
+                    Розподіл відрізняється від нормального
+                </p>
+            </td>
+            <td width="88">
+                <p align="CENTER">
+                    Порядкова
+                </p>
+            </td>
+            <td width="126">
+                <p align="CENTER">
+                    Номінальна (категорійна)
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" width="93">
+                <p align="CENTER">
+                    <strong>Порівняння незалежних груп</strong>
+                </p>
+            </td>
+            <td valign="TOP" width="54">
+                <p lang="en-US" align="CENTER">
+                    <strong>2 </strong>
+                    <strong>групи</strong>
+                </p>
+            </td>
+            <td valign="TOP" width="119">
+                <p lang="en-US" align="CENTER">
+                    t-критерій Стьюдента
+                </p>
+            </td>
+            <td colspan="2" valign="TOP" width="217">
+                <p align="CENTER">
+                    Критерій Уілкоксона-Манна-Уітні
+                </p>
+            </td>
+            <td valign="TOP" width="126">
+                <p lang="en-US" align="CENTER">
+                    Критерій хі-квадрат, точний критерій Фішера
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="TOP" width="54">
+                <p lang="en-US" align="CENTER">
+                    <strong><em>&gt; </em></strong>
+                    <strong>2 </strong>
+                    <strong>груп</strong>
+                </p>
+            </td>
+            <td valign="TOP" width="119">
+                <p align="CENTER">
+                    Дисперсійний аналіз
+                </p>
+            </td>
+            <td colspan="2" valign="TOP" width="217">
+                <p align="CENTER">
+                    Критерій Краскела-Уолліса
+                </p>
+            </td>
+            <td valign="TOP" width="126">
+                <p lang="en-US" align="CENTER">
+                    Критерій хі-квадрат, точний критерій Фішера
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" width="93">
+                <p lang="en-US" align="CENTER">
+                    <strong>Порівняння залежних (зв’</strong>
+                    <strong>язаних) груп</strong>
+                </p>
+            </td>
+            <td valign="TOP" width="54">
+                <p lang="en-US" align="CENTER">
+                    <strong>2 </strong>
+                    <strong>групи</strong>
+                </p>
+            </td>
+            <td valign="TOP" width="119">
+                <p align="CENTER">
+                    Парний t-критерій Стьюдента
+                </p>
+            </td>
+            <td colspan="2" valign="TOP" width="217">
+                <p lang="en-US" align="CENTER">
+                    Критерій знакових рангів Уілкоксона (Парний критерій Уілкоксона)
+                </p>
+            </td>
+            <td valign="TOP" width="126">
+                <p align="CENTER">
+                    Критерій МакНемара
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td valign="TOP" width="54">
+                <p lang="en-US" align="CENTER">
+                    <strong><em>&gt; </em></strong>
+                    <strong>2 </strong>
+                    <strong>груп</strong>
+                </p>
+            </td>
+            <td valign="TOP" width="119">
+                <p align="CENTER">
+                    Дисперсійний аналіз із повторюваними вимірюваннями
+                </p>
+            </td>
+            <td colspan="2" valign="TOP" width="217">
+                <p align="CENTER">
+                    Критерій Фрідмана
+                </p>
+            </td>
+            <td valign="TOP" width="126">
+                <p lang="en-US" align="CENTER">
+                    Q-критерій Кокрена
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 
