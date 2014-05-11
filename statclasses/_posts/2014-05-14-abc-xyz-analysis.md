@@ -62,7 +62,7 @@ dani = read.csv(adress, sep = ";", fileEncoding = "CP1251")
 head(dani)  #перевіряємо успішність завантаження
 ```
 
-```
+```rconsole
 ##     preparat optcina aptcina p1 p2 p3 p4 p5 p6
 ## 1     АЛАДИН   43.57   48.97  6  6  2  5  3  2
 ## 2    АМИЗОН®   13.38   15.33 30 21 19 26 35 27
@@ -129,7 +129,7 @@ abc = as.factor(abc)
 table(abc)
 ```
 
-```
+```rconsole
 ## abc
 ##  A  B  C 
 ## 25 18  9
@@ -174,7 +174,7 @@ xyz = as.factor(xyz)  #перетворюємо змінну xyz у фактор
 table(xyz)
 ```
 
-```
+```rconsole
 ## xyz
 ##  X  Y  Z 
 ##  2 17 33
@@ -188,7 +188,7 @@ table(xyz)
 table(abc, xyz)
 ```
 
-```
+```rconsole
 ##    xyz
 ## abc  X  Y  Z
 ##   A  1  9 15
