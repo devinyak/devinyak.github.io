@@ -12,8 +12,8 @@ category: statclasses
 
 <table cellpadding="7" cellspacing="0" width="658">
     <colgroup>
-        <col width="18"/>
-        <col width="19"/>
+        <col width="28"/>
+        <col width="29"/>
         <col width="107"/>
         <col width="109"/>
         <col width="107"/>
@@ -65,12 +65,12 @@ category: statclasses
             </td>
         </tr>
         <tr valign="TOP">
-            <td rowspan="4" width="18">
+            <td rowspan="4" width="28">
                 <p lang="en-US" align="CENTER">
                     Змінна 2
                 </p>
             </td>
-            <td rowspan="2" width="19">
+            <td rowspan="2" width="29">
                 <p align="CENTER">
                     Відносна
                 </p>
@@ -119,7 +119,7 @@ category: statclasses
             </td>
         </tr>
         <tr valign="TOP">
-            <td rowspan="2" width="19">
+            <td rowspan="2" width="29">
                 <p align="CENTER">
                     Дискретна
                 </p>
