@@ -8,7 +8,9 @@ permalink: connect.html
 # Контакти #
 - - -
 
- - **Електронна пошта:** stat.org.ua@gmail.com
+ - **Телефон**: 0967613298
+
+ - **Електронна пошта:** o.devinyak@gmail.com
 
  - **[Профіль на Google Scholar](http://scholar.google.com.ua/citations?user=7iwcSpkAAAAJ)** 
 
