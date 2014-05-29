@@ -1,14 +1,14 @@
-<div id="headblock">
-<h1 id="page.title"><a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a></h1>
-<p><em>{{page.author}}</em>, {{ page.date | date: "%d.%m.%Y"}}</p>
+<div id="headblock" itemscope itemtype="http://data-vocabulary.org/Article">
+<h1 id="page.title"><a href="{{ BASE_PATH }}{{ page.url }}"><span itemprop="headline">{{ page.title }}</span></a></h1>
+<p><em><a href="https://plus.google.com/101355702539843315859?rel=author"><span itemprop="author">{{page.author}}</span></a></em>, <span itemprop="dateCreated">{{ page.date | date: "%d.%m.%Y"}}</p>
 <hr />
 </div>
-<div class="contenttext"><p>{{page.content | markdownify}}</p></div>
+<div class="contenttext"><p><span itemprop="articleBody">{{page.content | markdownify}}</span></p></div>
 <ul class="tags">
   
     <li><strong>Ключові слова: </strong></li>
     {% for tag in page.tags %}
-    <li><a href="{{BASE_URL}}/tags.html#{{tag}}-ref">{{ tag }}</a></li>
+    <li><a href="{{BASE_URL}}/tags.html#{{tag}}-ref"><span itemprop="articleSection">{{ tag }}</span></a></li>
     {% endfor %}  
 </ul>
 {% include JB/comments %}
