@@ -30,6 +30,8 @@ permalink: publications.html
 14. Сучасні підходи до пошуку нових лікарських засобів на основі тієно\[2,3-d\]піримідин-2,4-діону / **О.Т. Девіняк**, Мар.В. Сливка, Мих.В. Сливка, В.М. Вайс, В.Г. Лендєл // Актуальні питання фармацевтичної та медичної науки та практики. – 2009. - №22. - С. 105-107.
 
 ## Тези конференцій
+1. 5-Ylidene-4-thiazolidinones anticancer agents source: problem solution / R. Lesyk, B. Zimenkovsky, D. Kaminskyy, A. Kryshchyshyn, D. Havrylyuk, N. Zelisko, **O. Devinyak**, D. Khyluk, V. Atamanyuk, O. Roman, A. Lozynskyi, M. Lelyukh, O. Voznyuk // Bridges in Life Sciences, 9th Annual
+Scientific Conference, May 27 – June 1, 2014: Conference proceedings/ - Split, 2014. - P. 101-102.
 8. [**Devinyak O.** Statistical Misconceptions in QSAR / **O. Devinyak**, R. Lesyk // 5th International Symposium “Methods and Applications of Computational Chemistry”, 1 – 5 July 2013: Conference proceedings. – Kharkiv, 2013. -  P. 46.](http://www.researchgate.net/publication/258166221_Statistical_Misconceptions_in_QSAR)
 9. [**Devinyak O.** QSAR Study of 4-Thiazolidinones Anticancer Activity with Gaussian Processes Regression / **O. Devinyak**, D. Havrylyuk, R. Lesyk // 5th International Symposium “Methods and Applications of Computational Chemistry”, 1 – 5 July 2013: Conference proceedings. – Kharkiv, 2013. -  P. 142.](http://www.researchgate.net/publication/258167141_QSAR_Study_of_4-Thiazolidinones_Anticancer_Activity_with_Gaussian_Processes_Regression)
 10.  Purposeful Synthesis of 4-Thiazolidinones with High Levels of Predicted Anticancer Activity / **O.T. Devinyak**, D.Ya. Havrylyuk, R.B. Lesyk, S.S. Avdyeyev, V.M. Kavsan // 9th International Conference "daRostim", 7-10 October 2013: Conference proceedings. – Lviv, 2013. – P. 33.
