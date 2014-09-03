@@ -9,6 +9,7 @@ permalink: publications.html
 
 
 6. [Computational Search for Possible Mechanisms of 4-Thiazolidinones Anticancer Activity: The Power of Visualization / **O. Devinyak**, D. Havrylyuk, B. Zimenkovsky, R. Lesyk // Molecular Informatics. - 2014. - Vol. 33(3). - P. 216-229.](http://onlinelibrary.wiley.com/doi/10.1002/minf.201300086/abstract)
+4. [Virtual Screening and its Experimental Validation Reveal Novel Compounds with Promising Anticancer Activity Among 4-Thiazolidinone- Pyrazoline- and Isatin-Based Conjugates / **OT Devinyak**, DYa Havrylyuk, SS Avdieiev, VV Chumak, RR Panchuk, RS Stoika, VM Kavsan, RB Lesyk // Austin Journal of Bioorganic & Organic Chemistry. - 2014. - 1(1). - P. 1-6.](http://austinpublishinggroup.org/bioorganic-organic-chemistry/download.php?file=fulltext/ajboc-v1-id1003.pdf)
 1. Hormonotherapy in patients with bilateral breast cancer / Y.S. Hotko, D.Y. Tsyhyka, S.V. Zhero, D.V. Prygara, N.Y. Pogorelova, O.I. Tsyhyka, V.Y. Ihnatko, **O.T. Devinyak** // Inter Medical Journal. – 2014.  – 1(1). – P. 84-90.
 2. [Побудова математичної моделі для оптимізації програми скринінгу раку грудної залози / А.В. Русин, В.І. Русин, О.М. Одошевська, **О.Т. Девіняк** // Український журнал хірургії. - 2014. - 2(25). - с. 53-58.](http://www.mif-ua.com/archive/article/38862)
 7. [Проблемы скрининга рака молочной железы на примере Закарпатской области. / А.В. Русин, В.И. Русин, О.М. Одошевская, **О.Т. Девиняк** // Новости хирургии. – 2013. - 5(21). – С. 71-79.](http://www.surgery.by/pdf/full_text/2013_5_11_ft.pdf)
