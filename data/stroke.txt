@@ -12,3 +12,10 @@ ID	age	gender	BMI	stroke	diabetes	IHD	location	MMSE
 12486	59	f	26	I	-	+	right	7
 12487	60	f	27	I	+	+	left	4
 12488	66	m	31	I	+	+	right	11
+12489	67	m	24	I	-	+	brainstem	22
+12490	59	m	26	I	-	+	left	5
+12491	60	m	26	I	-	+	left	0
+12492	54	f	27	I	-	+	left	25
+12493	48	m	31	H	-	-	right	12
+12494	71	m	33	I	-	-	left	27
+12495	72	f	22	I	-	+	left	19
