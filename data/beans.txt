@@ -1,0 +1,17 @@
+ID	weight	group
+1	 1.76	Yes
+2	 1.45	Yes
+3	 1.03	Yes
+4	 1.53	Yes
+5	 2.34	Yes
+6	 1.96	Yes
+7	 1.79	Yes
+8	 1.21	Yes
+1	 0.49	No
+2	 0.85	No
+3	 1.00	No
+4	 1.54	No
+5	 1.01	No
+6	 0.75	No
+7	 2.11	No
+8	0.92	No
