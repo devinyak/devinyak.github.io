@@ -64,3 +64,6 @@ Scientific Conference, May 27 – June 1, 2014: Conference proceedings/ - Split,
 
 1. [Пат. 80435 Україна, МПК С 07 D277/00. Спосіб прогнозування протипухлинної активності похідних 4-тіазолідинону / Зіменковський Б.С., Лесик Р.Б., **Девіняк О.Т.**, Гаврилюк Д.Я.; заявник і патентовласник ЛНМУ ім. Данила Галицького. № u201214506; заявл. 18.12.2012; опубл. 27.05.2013; Бюл. №10.](http://uapatents.com/5-80435-sposib-prognozuvannya-protipukhlinno-aktivnosti-pokhidnikh-4-tiazolidinonu.html)
 
+## Навчально-методичні видання
+
+1. M. Slivka, M. Fizer, **O. Devinyak**, V. Lendel. Selected Topics in Medicinal Chemistry. Part 1. Solutions. Main methods of drug chemical analysis and drug design: Handbook. - Uzhgorod, 2015. - 120 p.
