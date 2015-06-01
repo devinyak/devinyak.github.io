@@ -39,6 +39,7 @@ permalink: publications.html
 Scientific Conference, May 27 – June 1, 2014: Conference proceedings/ - Split, 2014. - P. 101-102.
 8. [**Devinyak O.** Statistical Misconceptions in QSAR / **O. Devinyak**, R. Lesyk // 5th International Symposium “Methods and Applications of Computational Chemistry”, 1 – 5 July 2013: Conference proceedings. – Kharkiv, 2013. -  P. 46.](http://www.researchgate.net/publication/258166221_Statistical_Misconceptions_in_QSAR)
 9. [**Devinyak O.** QSAR Study of 4-Thiazolidinones Anticancer Activity with Gaussian Processes Regression / **O. Devinyak**, D. Havrylyuk, R. Lesyk // 5th International Symposium “Methods and Applications of Computational Chemistry”, 1 – 5 July 2013: Conference proceedings. – Kharkiv, 2013. -  P. 142.](http://www.researchgate.net/publication/258167141_QSAR_Study_of_4-Thiazolidinones_Anticancer_Activity_with_Gaussian_Processes_Regression)
+10. [Search of new anticancer thiazolidinones within structure-based design / D. Kaminskyy, A. Kryshchyshyn, D. Havrylyuk, N. Zelisko, **O. Devinyak**, I. Subtel’na, D. Khyluk, V. Atamanyuk, A. Lozynskyi, S. Harkov, R. Lesyk // Bridges in Life Sciences - 8th Annual Scientific Conference, 5-7 April 2013: Biopolymers and cell. - Prague, 2013. - Vol.29(Suppl. 2). - P. 81](http://www.biopolymers.org.ua/pdf/29/2suppl/038/biopolym.cell-2013-29-2suppl-038-en.pdf)
 10.  Purposeful Synthesis of 4-Thiazolidinones with High Levels of Predicted Anticancer Activity / **O.T. Devinyak**, D.Ya. Havrylyuk, R.B. Lesyk, S.S. Avdyeyev, V.M. Kavsan // 9th International Conference "daRostim", 7-10 October 2013: Conference proceedings. – Lviv, 2013. – P. 33.
 12.  Vasilenko A.N. Study of the anticancer activity of derivatives 1,3-thiazole and 1,3-oxazole / A.N. Vasilenko, **O.T. Devinyak**, V.S. Brovarets // International Interdisciplinary Scientific Conference "Biologically active substances and materials", May 27 – June 1, 2013: Conference proceedings. - Novy Svet, 2013. – P. 324.
 11.  [QSAR studies of anticancer activity of 1,3-thiazole and 1,3-oxazole derivatives / A.N. Vasilenko, **O.T. Devinyak**, I.V. Semenyuta, V.V. Kovalyshyn, I.N. Kopernik, V.S. Brovarets // 5th International Symposium “Methods and Applications of Computational Chemistry”, 1 – 5 July 2013: Conference proceedings. – Kharkiv, 2013. -  P. 131.](http://www.researchgate.net/publication/259686832_QSAR_STUDIES_OF_ANTICANCER_ACTIVITY_OF_13-THIAZOLE_AND_13-OXAZOLE_DERIVATIVES)
@@ -66,4 +67,8 @@ Scientific Conference, May 27 – June 1, 2014: Conference proceedings/ - Split,
 
 ## Навчально-методичні видання
 
-1. M. Slivka, M. Fizer, **O. Devinyak**, V. Lendel. Selected Topics in Medicinal Chemistry. Part 1. Solutions. Main methods of drug chemical analysis and drug design: Handbook. - Uzhgorod, 2015. - 120 p.
+1. M. Slivka, M. Fizer, **O. Devinyak**, V. Lendel. Selected Topics in Medicinal Chemistry. Part 1. Solutions. Main methods of drug chemical analysis and drug design: Handbook. - Uzhhorod, 2015. - 120 p.
+2. M. Slivka, M. Fizer, **O.Devinyak**, M. Onysko, V. Lendel. Tests and calculation tasks in medicinal chemistry: methodical document. - Uzhhorod, 2015. - 52 p.
+3. **О.Т. Девіняк** Методичні вказівки для практичних занять з дисципліни «комп’ютерне моделювання у фармації». - Ужгород, 2015. - 92 с.
+4. **О.Т. Девіняк** Методичні вказівки для практичних занять з патентознавства. - Ужгород, 2015. - 19 с.
+5. **О.Т. Девіняк**, В.М. Вайс Методичні вказівки для практичних занять з біофармації. - Ужгород, 2015. - 28 с.
