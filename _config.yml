@@ -1,8 +1,8 @@
-#gems:
+gems:
 #  - jekyll-sitemap
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-#permalink: /blog/:categories/:title/
+permalink: /blog/:categories/:title/
 
 #exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store", "updatesite.sh", ".rsyncignore"]
 #include: [".htaccess"]
@@ -32,7 +32,7 @@ paginate: 5
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-#production_url : http://stat.org.ua
+production_url : http://www.stat.org.ua
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -61,7 +61,7 @@ paginate: 5
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
- #BASE_PATH : http://stat.org.ua
+ BASE_PATH : http://www.stat.org.ua
 #baseurl: ""
 #url: http://stat.org.ua
 #github_username: devinyak
@@ -73,14 +73,14 @@ paginate: 5
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
- # ASSET_PATH : false
+  ASSET_PATH : false
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change theme here if needed.
   #
-#  archive_path: /archive.html
- # categories_path : /categories.html
- # tags_path : /tags.html
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
