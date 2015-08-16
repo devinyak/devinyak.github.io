@@ -32,7 +32,7 @@ paginate: 5
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://stat.org.ua
+#production_url : http://stat.org.ua
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -64,7 +64,7 @@ production_url : http://stat.org.ua
  #BASE_PATH : http://stat.org.ua
 #baseurl: ""
 #url: http://stat.org.ua
-github_username: devinyak
+#github_username: devinyak
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
   #
