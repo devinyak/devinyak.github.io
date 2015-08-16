@@ -62,7 +62,9 @@ JB :
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
  #BASE_PATH : http://stat.org.ua
-
+baseurl: ""
+url: http://stat.org.ua
+github_username: devinyak
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
   #
