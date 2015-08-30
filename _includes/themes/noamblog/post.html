@@ -11,7 +11,7 @@
     <li><a href="{{BASE_URL}}/tags.html#{{tag}}-ref"><span itemprop="articleSection">{{ tag }}</span></a></li>
     {% endfor %}  
 </ul>
-{% include JB/comments %}
+{% include JB/comments-provider/disqus %}
 
 <div class="noprint" id="previous-posts"><hr />
 <p>{% if page.previous %} <strong>Попередня стаття</strong>: <a href="{{ BASE_PATH }}{{ page.previous.url }}">{{ page.previous.title }}</a> {% endif %}</p>
