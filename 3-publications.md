@@ -6,7 +6,10 @@ permalink: publications.html
 ---
 
 ## Наукові статті
-
+3. [Kryshchyshyn A.,**Devinyak O.**, Kaminskyy D., Grellier P., Lesyk R. Development of Predictive QSAR Models of 4‐Thiazolidinones Antitrypanosomal Activity using Modern Machine Learning Algorithms //Molecular Informatics. – 2017. – E-pub ahead of print.](http://onlinelibrary.wiley.com/doi/10.1002/minf.201700078/full)
+4. [Zimenkovsky A., Nastyukha Y., Boretska O., Drozd M., **Devinyak O.**  Quality of pharmaceutical care at the stage of patients’ needs identification under conditions of community pharmacies as a transborder problem. // Acta Poloniae Pharmaceutica - Drug Research. – 2017. -  Vol. 74. - No. 3. - P. 1011-1019](http://www.ptfarm.pl/pub/File/Acta_Poloniae/2017/Nr%203/1011.pdf)
+3. [Русин В.И., Корсак В.В., Русин В.В., Горленко Ф.В., Лангазо А.В., **Девиняк О.Т.** Отдаленные результаты непрямой реваскуляризации нижних конечностей при ишемическом поражении бедренно- подколенно-берцового сегмента // Хирургия. Восточная Eвропа. – 2017. – Т. 6, № 4. – С. 481-487.](http://surgery.recipe.by/ru/?editions=2017-tom-6-n-4-4&group_id=item_0&article_id=line_0)
+4. Горленко О.М., Пушкаш Л.Ю., **Девіняк О.Т.** Обстеження підліткового контингенту екологічно залежного гірського регіону // Вісник Ужгородського університету. Серія «Медицина». – 2017. – Вип. 2(56). – у друці.
 3. [**Devinyak O.T.**, Lesyk R.B. 5-Year Trends in QSAR and its Machine Learning Methods // Current computer-aided drug design. 2016. 12(4). P. 265-271.](https://www.researchgate.net/publication/302591849_5-Year_Trends_in_QSAR_and_its_Machine_Learning_Methods)
 3. Slivka M., Korol N., Fizer M., Pant’o V., Krivov’iaz A., **Devinyak O.**, Lendel V., Mariychuk R. New approaches in creation of 1,2,4-triazole-containing bio-active compounds for environmental technologies // Obuda University e-Bulletin. 2016. Vol. 6, No. 1. Р. 50-56.
 3. Теоретичне дослідження 1,2,4-триазоліл-1-дитіокарбонової кислоти як аналога диклофенаку / М.М. Фізер, О.І. Фізер, **О.Т. Девіняк**, М.В. Сливка, В.Г. Лендєл // Науковий вісник УжНУ Серія: Хімія. – 2016. – №1 (35). – С. 62-67.
