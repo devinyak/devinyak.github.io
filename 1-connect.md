@@ -8,8 +8,6 @@ permalink: connect.html
 # Контакти #
 - - -
 
- - **Телефон**: 0967613298
-
  - **Електронна пошта:** o.devinyak@gmail.com
 
  - **[Профіль на Google Scholar](http://scholar.google.com.ua/citations?user=7iwcSpkAAAAJ)** 
@@ -22,7 +20,6 @@ permalink: connect.html
 
  - **[Профіль на CrossValidated](http://stats.stackexchange.com/users/8165/)**
 
- - **[Профіль на Habrahabr](http://habrahabr.ru/users/odevinyak/)**
 
  - **Адреса**
 
